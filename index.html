@@ -1,0 +1,70 @@
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+        <meta charset="UTF-8">
+        <meta http-equiv="X-UA-Compatible" content="IE=edge">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <title>Login & Registration Form</title>
+        <link rel="stylesheet" href="css files/style.css">
+        <link
+            href="https://fonts.googleapis.com/css2?family=Acme&family=Archivo&family=Macondo&family=Montserrat:ital,wght@0,600;1,400&family=Open+Sans&family=Pacifico&family=Rubik:wght@500&family=Tiro+Kannada:ital@1&display=swap"
+            rel="stylesheet">
+    </head>
+    <body id="background-img">
+        <header>
+            <div class="nav-bar">
+                <a href="#">Landing Page</a>
+                <div class="nav-options">
+                    <a href="#">Home</a>
+                    <a href="#">About Us</a>
+                    <a href="#">Services</a>
+                    <a href="#">Contact</a>
+                    <a href="#" id="login"> Login</a>
+                </div>
+            </div>
+        </header>
+        <div id="form" class="hidden">
+            <div id="btn-area">
+                <p class="btn login-btn active-btn">Login</p>
+                <p class="btn register-btn">Register</p>
+            </div>
+            <form class="login-content">
+
+                <input type="email" placeholder="Enter Email" name="email"
+                    id="email" required>
+
+                <input type="password" placeholder="Enter Password" name="psw"
+                    id="psw" required>
+                <div id="remember">
+                    <input type="checkbox" name="remember"
+                        id="remember">
+                    <label for="remember">Remember Me</label>
+                </div>
+
+
+                <button type="submit" class="submit active-btn">Login</button>
+            </form>
+            <form class="register-content">
+                <input type="text" placeholder="First Name" name="first"
+                    id="first" required>
+                <input type="text" placeholder="Last Name" name="second"
+                    id="second" required>
+                <input type="email" placeholder="Email ID" name="emailId"
+                    id="emailId" required>
+                <input type="password" placeholder="Enter Password"
+                    name="password"
+                    id="password" required>
+                <input type="password" placeholder="Confirm Password"
+                    name="C-password"
+                    id="C-password" required>
+                <div id="terms-condition">
+                    <input type="checkbox" name="terms"
+                        id="terms">
+                    <label for="terms">I agree to the terms and conditions</label>
+                </div>
+                <button type="submit" class="submit active-btn">Login</button>
+            </form>
+        </div>
+        <script src="script.js"></script>
+    </body>
+</html>
