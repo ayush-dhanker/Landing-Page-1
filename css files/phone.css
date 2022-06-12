@@ -1,0 +1,47 @@
+* {
+  font-size: 16px;
+}
+
+:root {
+  --text-size: 12px;
+}
+
+/* Styling Navigation */
+.nav-bar {
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  margin-top: 10px;
+  margin-bottom: 10px;
+}
+
+.nav-options {
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+
+/* Styling form */
+#form {
+  height: 75%;
+  width: 50%;
+}
+
+/* buttons */
+#btn-area {
+  top: 10px;
+}
+
+/* form  */
+input {
+  font-size: 12px;
+}
+
+#remember {
+  margin-top: 2vh;
+}
+
+/* Submit button */
+.submit {
+  margin-top: 2vh;
+}
